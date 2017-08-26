@@ -15,8 +15,14 @@
 * Sequelize
 
 ### 2. Technologies
-* Bootstrap
-* 
+* HTML/CSS
+* Materialize
+* Handlebars
+* Node and Express Web Server
+* MySQL Database with Sequelize ORM
+* PassportJS
+* MVC Paradigm
+* Deployed using Heroku (with migrated seed data)
 
 ### 3. Description
 * Automatically update your busy schedule by finding availablity and inserting clients into only those available slots. All of the work is done for you so there is no fear of double-booking!
