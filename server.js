@@ -7,7 +7,7 @@ var env = require('dotenv').load();
 var exphbs = require('express-handlebars');
 
 
-var port = process.env.port || 5000;
+var port = process.env.PORT || 5000;
 
 //For BodyParser
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -21,13 +21,13 @@ app.use(passport.initialize());
  
 app.use(passport.session()); // persistent login sessions
 
-app.use(express.static(process.cwd() + "/public"));
+app.use(express.static(process.cwd() + "/public", {index: ""}));
  
-app.get('/', function(req, res) {
+// app.get('/', function(req, res) {
  
-    res.send('Welcome to Passport with Sequelize');
+//     res.send('Welcome to Passport with Sequelize');
  
-});
+// });
 
 
 
