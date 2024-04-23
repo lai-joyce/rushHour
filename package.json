@@ -34,7 +34,7 @@
     "express-session": "^1.15.5",
     "express-validator": "^3.2.1",
     "materialize-css": "^0.100.1",
-    "mysql2": "^1.4.1",
+    "mysql2": "^3.9.7",
     "passport": "^0.4.0",
     "passport-github": "^1.1.0",
     "passport-http": "^0.3.0",
